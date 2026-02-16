@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import bookData from "@/data/book.json";
+import { book as bookData } from '@/data/book';
 import CodeBlock from "@/components/CodeBlock";
 import PythonLogo from "@/components/PythonLogo";
 
